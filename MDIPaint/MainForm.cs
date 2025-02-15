@@ -46,7 +46,33 @@ namespace MDIPaint
 
         private void размерХолстаToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
+        }
+        private void рисунокToolStripMenuItem_DropDownOpening(object sender, EventArgs e)
+        {
+            размерХолстаToolStripMenuItem.Enabled = !(ActiveMdiChild == null);
+        }
 
+        private void красныйToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Color = Color.Red;
+        }
+
+        private void синийToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Color = Color.Blue;
+        }
+
+        private void зелёныйToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Color = Color.Green;
+        }
+
+        private void другойToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog cd = new ColorDialog();
+            if (cd.ShowDialog() == DialogResult.OK)
+                Color = cd.Color;
         }
     }
 }

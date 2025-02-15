@@ -141,7 +141,7 @@
             // размерХолстаToolStripMenuItem
             // 
             this.размерХолстаToolStripMenuItem.Name = "размерХолстаToolStripMenuItem";
-            this.размерХолстаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.размерХолстаToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.размерХолстаToolStripMenuItem.Text = "Размер холста...";
             this.размерХолстаToolStripMenuItem.Click += new System.EventHandler(this.размерХолстаToolStripMenuItem_Click);
             // 
@@ -226,28 +226,32 @@
             // 
             this.красныйToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("красныйToolStripMenuItem.Image")));
             this.красныйToolStripMenuItem.Name = "красныйToolStripMenuItem";
-            this.красныйToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.красныйToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.красныйToolStripMenuItem.Text = "Красный";
+            this.красныйToolStripMenuItem.Click += new System.EventHandler(this.красныйToolStripMenuItem_Click);
             // 
             // синийToolStripMenuItem
             // 
             this.синийToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("синийToolStripMenuItem.Image")));
             this.синийToolStripMenuItem.Name = "синийToolStripMenuItem";
-            this.синийToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.синийToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.синийToolStripMenuItem.Text = "Синий";
+            this.синийToolStripMenuItem.Click += new System.EventHandler(this.синийToolStripMenuItem_Click);
             // 
             // зелёныйToolStripMenuItem
             // 
             this.зелёныйToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("зелёныйToolStripMenuItem.Image")));
             this.зелёныйToolStripMenuItem.Name = "зелёныйToolStripMenuItem";
-            this.зелёныйToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.зелёныйToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.зелёныйToolStripMenuItem.Text = "Зелёный";
+            this.зелёныйToolStripMenuItem.Click += new System.EventHandler(this.зелёныйToolStripMenuItem_Click);
             // 
             // другойToolStripMenuItem
             // 
             this.другойToolStripMenuItem.Name = "другойToolStripMenuItem";
-            this.другойToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.другойToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.другойToolStripMenuItem.Text = "Другой...";
+            this.другойToolStripMenuItem.Click += new System.EventHandler(this.другойToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 

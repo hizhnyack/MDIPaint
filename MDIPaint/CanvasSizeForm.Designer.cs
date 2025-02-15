@@ -1,4 +1,8 @@
-﻿namespace MDIPaint
+﻿using System;
+using System.Windows.Forms;
+
+
+namespace MDIPaint
 {
     partial class CanvasSizeForm
     {
