@@ -43,5 +43,10 @@ namespace MDIPaint
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void размерХолстаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
